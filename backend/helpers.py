@@ -1,7 +1,7 @@
 import os
 
 def get_origins():
-    defaultRet = ["localhost:*", "127.0.0.1:*"]
+    defaultRet = ["http://localhost:*", "http://127.0.0.1:*"]
 
     print("Adding origins..")
 
