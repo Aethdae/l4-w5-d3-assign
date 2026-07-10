@@ -14,6 +14,7 @@ def get_origins():
         
     with open("origins.txt", "r") as file:
         for line in file.readlines():
+            line = line.strip()
             if line.endswith("\n"):
                 line = line.replace("\n", "")
 
