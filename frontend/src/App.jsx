@@ -15,7 +15,7 @@ export default function App() {
   }, []);
 
   return (
-    <main>
+    <main className="bg-gray-800 h-screen">
       <NavBar />
       <Routes>
         <Route
